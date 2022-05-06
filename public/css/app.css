@@ -150,3 +150,31 @@ h1 { text-align: center; margin-bottom: 2rem}
     outline: none;
     background-color: transparent;
 }
+
+.profile-img{
+    height: 50px;
+    width: 50px;
+}
+.profile-img img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 1px #555353;
+}
+.list-group-item {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 10px 1px #efefef;
+}
+.list-group-item .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px !important;
+}
+
+.list-group-item .content .item .fa{
+    color: aquamarine;
+    padding-left: 20px;
+}
