@@ -1,6 +1,12 @@
 ## !!!!!!!!!! This project is not finished yet !!!!!!!!
 ## User Management Application
-
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 Hi,
 I made a user management application using Laravel, MongoDB and VueJs. To test the API created in this application,
 I used VueJs in the frontend and Bootstrap in the design.
